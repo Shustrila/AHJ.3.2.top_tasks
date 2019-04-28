@@ -1,0 +1,86 @@
+.task {
+    width: 300px;
+    margin-top: 50px;
+    padding: 30px 25px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.task__form {
+    margin-bottom: 20px;
+}
+
+.task__form-title {
+    margin-bottom: 10px;
+}
+
+.task__form-label {
+    width: 100%;
+}
+.task_error {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.task__form-input {
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+    outline: transparent;
+    border: 0;
+    transition: 0.25s;
+    border-radius: 5px;
+}
+.task__form-input:focus {
+    box-shadow: 2px 2px 5px #dddddd;
+}
+.task__heading {
+    margin-bottom: 10px;
+}
+.task__wrapper-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.task__wrapper-list:last-child {
+    margin-bottom: 0;
+}
+.task__empty-list{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.task__list {
+    width: 100%;
+}
+.task__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.task__item:last-child{
+    margin-bottom: 0;
+}
+.task__description {
+    flex-grow: 1;
+    color: #000000;
+}
+.task__button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: transparent;
+    cursor: pointer;
+    transition: 0.25s;
+    border: 2px solid #dddddd;
+}
+.task__button-pinned {
+    border: 2px solid #000000;
+}
+.task__button:hover {
+    border: 2px solid #000000;
+}
